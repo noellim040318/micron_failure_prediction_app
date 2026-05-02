@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Launching Micron Failure Prediction System...
+streamlit run app.py
